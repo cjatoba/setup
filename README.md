@@ -59,3 +59,10 @@ cd web
 npm install                                    
 npm run dev
 ````
+
+- Configure TailwindCss
+
+````shell
+npm i tailwindcss postcss autoprefixer -D
+npx tailwindcss init -p
+````
