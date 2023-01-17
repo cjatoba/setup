@@ -1,3 +1,5 @@
+# Backend
+
 ## Initial setup
 
 ```shell
@@ -38,4 +40,22 @@ npx prisma studio
 - Configure Cors
 ````shell
 npm i @fastify/cors
+````
+
+# Frontend
+
+````shell
+npm create vite@latest
+````
+
+- Select options:
+  - Ok to proceed? (y) `Enter`
+  - Project name: `web`
+  - Select a framework: `React`
+  - Select a variant: › `TypeScript`
+
+````shell
+cd web                                         
+npm install                                    
+npm run dev
 ````
