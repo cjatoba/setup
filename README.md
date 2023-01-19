@@ -66,3 +66,18 @@ npm run dev
 npm i tailwindcss postcss autoprefixer -D
 npx tailwindcss init -p
 ````
+
+# Mobile
+
+- Install expo go in your smartphone;
+- In root folter:
+````shell
+npx create-expo-app
+````
+
+- Run expo:
+````shell
+npx expo start --clear
+#In WSL
+npx expo start --clear --tunnel
+````
